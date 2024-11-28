@@ -1,27 +1,20 @@
-body, html {
+body{
     margin: 0 auto;
     text-align: center;
-    padding: 2rem;
     height: 100%;
-    max-width: 1280px;
-    background-color: #0a7e0e;
+    background-color: rgb(18, 25, 40);
+    display: flex;
+    flex-direction: column;    
 }
 
-.video_container{
-    position: absolute;
-    top: 0;
-    left: 0;
+.background_video{
+    display: flex;
+    text-align: center;
     width: 100%;
-    display: block;
-}
-
-.background_video {
-    width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
 
 .Image_titulo {
-    justify-content: center;
     align-self:center;
     position:absolute;
     top: 50%;
@@ -31,15 +24,112 @@ body, html {
     pointer-events: none; 
 }
 
-.subtitulo{
-    position: absolute;
-    display: block;
-    top: 780px;
+.subtitulo2{
+    display: flex;
+    text-align: center;
+    background-color: rgba(1, 36, 1, 0.648);
 }
+
+.subtitulo2 > p {
+    margin: 20px auto 20px auto;
+    font-family: Faculty Glyphic, serif;
+    color: rgba(255, 140, 0, 0.825);
+    font-size: 64px;
+    font-style: italic;
+    text-shadow: 3px 3px black;
+}
+
+.fondo2{
+    display: flex;
+    text-align: center;
+    background-color:teal;
+}
+
+.fondo2 > img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.subtitulo{
+    display: flex;
+    position: absolute;
+    max-width: 600px;
+    top: 1750px;
+    margin: auto auto auto 50px;
+}
+ 
+.subtitulo > h1{
+    font-family: Faculty Glyphic, serif;
+    color: rgba(255, 140, 0, 0.825);
+    text-wrap:balance;
+    font-size: 64px;
+    font-style: italic;
+    text-shadow: 3px 3px black;
+    text-align: left;
+}
+
+.imagenes{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: 75px auto 75px auto;
+}
+
+.imagenes > img {
+    width: 300px;
+    margin: 5px;
+    border: solid 5px black;
+}
+
+.tablas{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_tabla{
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+.tabla{
+    display: table;
+    width: 300px;
+}
+
+.tr, td{
+    border: solid 2px black;
+    background-color: aliceblue;
+    font-family: Faculty Glyphic, serif;
+    text-align: center;
+    width: 50%;
+    padding: 3px;
+}
+
+
+
+.tr, th{
+    border: solid 2px black;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 3px;
+}
+
 
 .botones{
-    position: absolute;
-    display: block;
-    top: 850px;
+    position: relative;
+    display: block  ;
+    top: 1800px;
 }
 
+.boton1{
+    width: 30px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.final{
+    display: block;
+    position: relative;
+    top: 1900px;
+}

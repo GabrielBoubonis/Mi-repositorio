@@ -2,65 +2,134 @@
 <html >
 <head>
     <title>LOL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="video_container">
-        <video  class="background_video" autoplay="" muted="" loop="">
+        <video class="background_video" autoplay="" muted="" loop="">
             <source src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/8ab3e227121c53aacab0c9b9f7a48adbc65db520.webm" type="video/webm">
         </video>
-        <div>
+        <div class="imagen_container">
             <img class="Image_titulo" src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png?auto=format&amp;fit=fill&amp;q=80&amp;w=460" alt="League of legend">
         </div>
     </div>
-    <div class="subtitulo">
-    <h1>Combate de legue of legend</h1>
+    <div class="subtitulo2">
+        <p>USTED ESTA POR CONSUMIR PACO!!!!</p>
     </div>
-    <table>
-        <tbody>
-            <tr>
-                <th> Campeon </th>
-            </tr>
-            <tr>
-                <th>Nombre</th>
-                <th>JINX</th>
-            </tr>
-            <tr>
-                <th>Tipo</th>
-                <th>ADC</th>
-            </tr>
-            <tr>
-                <th>Daño</th>
-                <th>500</th>
-            </tr>
-            <tr>
-                <th>Vida</th>
-                <th>350</th>
-            </tr>
-        </tbody>
-    </table>
-        <!--}
-        let campeon_2 = {
-            nombre: "VI",
-            tipo: "JUNGLA",
-            danio: 700,
-            vida: 500,
-        }
-        let campeon_3 = {
-            nombre: "LUX",
-            tipo: "SOPORTE",
-            danio: 300,
-            vida: 600,
-        }
-        let campeon_4 = {
-            nombre: "VARUS",
-            tipo: "ADC",
-            danio: 450,
-            vida: 500,
-        }-->
+    <div class="fondo2">
+        <img src="imagenes/Fondo2.jpg">
+    </div>
+    <div class="subtitulo">
+        <h1>Combate de league of legends</h1>
+    </div>
+    <div class="imagenes">
+        <img src="imagenes/Jinx.avif">
+        <img src="imagenes/Vi.jpg">
+        <img src="imagenes/Lux.jpg">
+        <img src="imagenes/Varus.jpg">
+    </div>
+    <div class="tablas">
+        <table class="contenedor_tabla">
+            <tbody class="tabla">
+                <tr>
+                    <th>Campeon</th>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>JINX</td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>ADC</td>
+                </tr>
+                <tr>
+                    <td>Daño</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Vida</td>
+                    <td>1500</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="contenedor_tabla">
+            <tbody class="tabla">
+                <tr>
+                    <th>Campeon</th>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Vi</td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Jungla</td>
+                </tr>
+                <tr>
+                    <td>Daño</td>
+                    <td>650</td>
+                </tr>
+                <tr>
+                    <td>Vida</td>
+                    <td>1800</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="contenedor_tabla">
+            <tbody class="tabla">
+                <tr>
+                    <th>Campeon</th>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Lux</td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Soporte</td>
+                </tr>
+                <tr>
+                    <td>Daño</td>
+                    <td>450</td>
+                </tr>
+                <tr>
+                    <td>Vida</td>
+                    <td>2000</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="contenedor_tabla">
+            <tbody class="tabla">
+                <tr>
+                    <th>Campeon</th>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Varus</td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>ADC</td>
+                </tr>
+                <tr>
+                    <td>Daño</td>
+                    <td>700</td>
+                </tr>
+                <tr>
+                    <td>Vida</td>
+                    <td>1650</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <div class="botones">
         <button id="boton1">Elija un Campeon:</button>
+    </div>
+    <div class="final">
+        <p>Fin del juego</p>
     </div>
     <script src="app.js"></script>
 </body>
